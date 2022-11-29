@@ -1,0 +1,9 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\bin\Debug\U2_SS_53.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\bin\Debug\U2_SS_53.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\bin\Debug\U2_SS_53.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\obj\Debug\U2_SS_53.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\obj\Debug\U2_SS_53.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\obj\Debug\U2_SS_53.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\obj\Debug\U2_SS_53.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\obj\Debug\U2_SS_53.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_53\obj\Debug\U2_SS_53.pdb

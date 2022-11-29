@@ -1,0 +1,9 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\bin\Debug\U2_Uyg11.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\bin\Debug\U2_Uyg11.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\bin\Debug\U2_Uyg11.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\obj\Debug\U2_Uyg11.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\obj\Debug\U2_Uyg11.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\obj\Debug\U2_Uyg11.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\obj\Debug\U2_Uyg11.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\obj\Debug\U2_Uyg11.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg11\obj\Debug\U2_Uyg11.pdb

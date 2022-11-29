@@ -1,0 +1,9 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\bin\Debug\SS_50.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\bin\Debug\SS_50.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\bin\Debug\SS_50.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\obj\Debug\SS_50.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\obj\Debug\SS_50.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\obj\Debug\U2_SS_50.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\obj\Debug\U2_SS_50.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\obj\Debug\SS_50.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_SS_50\obj\Debug\SS_50.pdb
