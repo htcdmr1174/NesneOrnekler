@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace U2_SS66_1
+namespace U2_Uyg30
 {
     public partial class Form1 : Form
     {
@@ -19,16 +19,11 @@ namespace U2_SS66_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int toplam = 0;
-            int say = 1;
-            while (say <= 20)
-
+            int say = 0;
+            do
             {
-                toplam = toplam + say;
-                listBox1.Items.Add(toplam);
-                say++;
-
-            }
+                richTextBox1.Text = richTextBox1.Text + say.ToString();
+            } while (say <= 30);
         }
     }
 }
