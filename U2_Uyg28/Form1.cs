@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace U2_Uyg27
+namespace U2_Uyg28
 {
     public partial class Form1 : Form
     {
@@ -19,13 +19,14 @@ namespace U2_Uyg27
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int sayi = 1;
-            while (sayi<=10)
+            int dongu_say = 1;
+            int toplam = 0;
+            while (toplam <= 100)
             {
-                listBox1.Items.Add(sayi);
-                sayi ++;
+                toplam = toplam + dongu_say;
+                dongu_say += 1;
             }
-
+            MessageBox.Show("döngü toplam" + dongu_say.ToString() + " kez çalıştır");
         }
     }
 }

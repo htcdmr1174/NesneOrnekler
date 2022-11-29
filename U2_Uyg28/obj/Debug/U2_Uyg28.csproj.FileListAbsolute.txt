@@ -1,0 +1,9 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\bin\Debug\U2_Uyg28.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\bin\Debug\U2_Uyg28.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\bin\Debug\U2_Uyg28.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\obj\Debug\U2_Uyg28.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\obj\Debug\U2_Uyg28.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\obj\Debug\U2_Uyg28.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\obj\Debug\U2_Uyg28.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\obj\Debug\U2_Uyg28.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg28\obj\Debug\U2_Uyg28.pdb
