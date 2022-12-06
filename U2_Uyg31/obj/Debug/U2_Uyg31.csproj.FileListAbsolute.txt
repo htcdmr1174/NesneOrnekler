@@ -1,0 +1,10 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\bin\Debug\U2_Uyg31.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\bin\Debug\U2_Uyg31.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\bin\Debug\U2_Uyg31.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\obj\Debug\U2_Uyg31.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\obj\Debug\U2_Uyg31.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\obj\Debug\U2_Uyg31.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\obj\Debug\U2_Uyg31.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\obj\Debug\U2_Uyg31.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\obj\Debug\U2_Uyg31.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U2_Uyg31\obj\Debug\U2_Uyg31.csproj.AssemblyReference.cache
