@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace U2_Goldsoru4
+namespace U2_Goldsoru5
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,14 +26,19 @@ namespace U2_Goldsoru4
                 deger2 = Convert.ToInt32(textBox2.Text);
                 for (int i = deger; i < deger2; i++)
                 {
-                    if (i % 2 == 0)
+                    if (i %5 == 0)
+                    {
+                        listBox3.Items.Add(i);
+                    }
+                    else if (i%3==0)
                     {
                         listBox2.Items.Add(i);
                     }
-                    else
+                     else
                     {
                         listBox1.Items.Add(i);
                     }
+
                 }
             }
             catch (Exception)
@@ -48,15 +48,6 @@ namespace U2_Goldsoru4
             }
 
         }
-
-
-
-
-        }
-
     }
-}
-
-
-
+    }
 

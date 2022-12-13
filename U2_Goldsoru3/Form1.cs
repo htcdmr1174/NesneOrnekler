@@ -59,7 +59,7 @@ namespace U2_Goldsoru3
             not3 = Convert.ToInt16(textBox3.Text);
 
             ortalama = (not1 + not2 + not3) / 3;
-            label3.Text = ortalama.ToString(); 
+            label3.Text = ortalama.ToString();
             if (radioButton1.Checked == true)
             {
                 label1.Text = ("matematik");
@@ -72,13 +72,16 @@ namespace U2_Goldsoru3
             {
                 label1.Text = ("nesne tabanlı");
             }
-            else
+            else if (radioButton1.Checked == true)
             {
                 label1.Text = ("robotik kodlama");
             }
-            else
+            else if (radioButton1.Checked == true)
+            {
+
+            }
         }
-             
-        }
+
     }
+}
 
