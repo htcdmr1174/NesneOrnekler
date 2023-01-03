@@ -1,0 +1,7 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U3_S81\bin\Debug\U3_S81.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U3_S81\bin\Debug\U3_S81.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U3_S81\bin\Debug\U3_S81.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U3_S81\obj\Debug\U3_S81.csproj.AssemblyReference.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U3_S81\obj\Debug\U3_S81.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U3_S81\obj\Debug\U3_S81.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U3_S81\obj\Debug\U3_S81.pdb
