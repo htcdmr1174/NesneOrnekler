@@ -1,0 +1,10 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\bin\Debug\U4_Uyg1.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\bin\Debug\U4_Uyg1.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\bin\Debug\U4_Uyg1.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\obj\Debug\U4_Uyg1.csproj.AssemblyReference.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\obj\Debug\U4_Uyg1.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\obj\Debug\U4_Uyg1.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\obj\Debug\U4_Uyg1.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\obj\Debug\U4_Uyg1.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\obj\Debug\U4_Uyg1.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U4_Uyg1\obj\Debug\U4_Uyg1.pdb
