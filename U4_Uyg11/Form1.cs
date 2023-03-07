@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,15 @@ namespace U4_Uyg11
         public Form1()
         {
             InitializeComponent();
+        }
+        ArrayList sehirler = new ArrayList();
+        private void button2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < sehirler.Count; i++)
+            {
+                textBox1.Items.Add(sehirler[i]);
+
+            }
         }
     }
 }
