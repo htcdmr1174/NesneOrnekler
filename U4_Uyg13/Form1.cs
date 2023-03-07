@@ -16,5 +16,46 @@ namespace U4_Uyg13
         {
             InitializeComponent();
         }
+        class Ogrenciler
+        {
+            public int Numara { get; set; }
+            public string AdSoyad { get; set; }
+        }
+        List<int> numaralarList = new List<int>();
+        List<string> adsoyadList = new List<string>();
+        List<Ogrenciler> ogrencilerList = new List<Ogrenciler>();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            numaralarList.Add(int.Parse(textBox1.Text));
+            listBox1.Items.Clear();
+            foreach (var item in numaralarList)
+            {
+                listBox1.Items.Add(item);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            numaralarList.Add(int.Parse(textBox2.Text));
+            listBox2.Items.Clear();
+            foreach (var item in numaralarList)
+            {
+                listBox2.Items.Add(item);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Ogrenciler ogrenci = new Ogrenciler();
+            ogrenci.Numara = int.Parse(textBox3.Text);
+            ogrenci.AdSoyad = textBox4.Text;
+            ogrencilerList.Add(ogrenci);
+            listBox3.Items.Clear();
+            foreach (var item in ogrencilerList)
+            {
+                listBox3.Items.Add(item.Numara + "" + item.AdSoyad);
+            }
+        }
     }
 }
