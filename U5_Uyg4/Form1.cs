@@ -16,5 +16,38 @@ namespace U5_Uyg4
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(textBox1.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoHome();
+
+        }
+
+        private void webBrowser1_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        {
+            listBox1.Items.Add(webBrowser1.Url);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoBack();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoForward();
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+        }
     }
 }
