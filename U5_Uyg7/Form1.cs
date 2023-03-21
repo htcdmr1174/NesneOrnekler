@@ -16,5 +16,10 @@ namespace U5_Uyg7
         {
             InitializeComponent();
         }
+
+        private void yenileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

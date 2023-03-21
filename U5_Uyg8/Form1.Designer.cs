@@ -31,7 +31,14 @@ namespace U5_Uyg8
         {
             this.anaMenu = new System.Windows.Forms.MenuStrip();
             this.menu = new System.Windows.Forms.ToolStripMenuItem();
+            this.yENİToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aÇToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kAYDETToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yAZDIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.kESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kOPYALAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.yAPIŞTIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.anaMenu.SuspendLayout();
@@ -51,15 +58,78 @@ namespace U5_Uyg8
             // menu
             // 
             this.menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.yENİToolStripMenuItem,
+            this.aÇToolStripMenuItem,
+            this.kAYDETToolStripMenuItem,
+            this.yAZDIRToolStripMenuItem});
             this.menu.Name = "menu";
+            this.menu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.menu.Size = new System.Drawing.Size(50, 20);
             this.menu.Text = "dosya";
             // 
+            // yENİToolStripMenuItem
+            // 
+            this.yENİToolStripMenuItem.Name = "yENİToolStripMenuItem";
+            this.yENİToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.yENİToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yENİToolStripMenuItem.Text = "YENİ";
+            this.yENİToolStripMenuItem.Click += new System.EventHandler(this.yENİToolStripMenuItem_Click);
+            // 
+            // aÇToolStripMenuItem
+            // 
+            this.aÇToolStripMenuItem.Name = "aÇToolStripMenuItem";
+            this.aÇToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.aÇToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.aÇToolStripMenuItem.Text = "AÇ";
+            // 
+            // kAYDETToolStripMenuItem
+            // 
+            this.kAYDETToolStripMenuItem.Name = "kAYDETToolStripMenuItem";
+            this.kAYDETToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.kAYDETToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.kAYDETToolStripMenuItem.Text = "KAYDET";
+            // 
+            // yAZDIRToolStripMenuItem
+            // 
+            this.yAZDIRToolStripMenuItem.Name = "yAZDIRToolStripMenuItem";
+            this.yAZDIRToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.yAZDIRToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.yAZDIRToolStripMenuItem.Text = "YAZDIR";
+            // 
             // toolStripMenuItem2
             // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kESToolStripMenuItem,
+            this.kOPYALAToolStripMenuItem,
+            this.yAPIŞTIRToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(51, 20);
             this.toolStripMenuItem2.Text = "düzen";
+            // 
+            // kESToolStripMenuItem
+            // 
+            this.kESToolStripMenuItem.Name = "kESToolStripMenuItem";
+            this.kESToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.kESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kESToolStripMenuItem.Text = "KES";
+            this.kESToolStripMenuItem.Click += new System.EventHandler(this.kESToolStripMenuItem_Click);
+            // 
+            // kOPYALAToolStripMenuItem
+            // 
+            this.kOPYALAToolStripMenuItem.Name = "kOPYALAToolStripMenuItem";
+            this.kOPYALAToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.kOPYALAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kOPYALAToolStripMenuItem.Text = "KOPYALA";
+            this.kOPYALAToolStripMenuItem.Click += new System.EventHandler(this.kOPYALAToolStripMenuItem_Click);
+            // 
+            // yAPIŞTIRToolStripMenuItem
+            // 
+            this.yAPIŞTIRToolStripMenuItem.Name = "yAPIŞTIRToolStripMenuItem";
+            this.yAPIŞTIRToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.yAPIŞTIRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yAPIŞTIRToolStripMenuItem.Text = "YAPIŞTIR";
+            this.yAPIŞTIRToolStripMenuItem.Click += new System.EventHandler(this.yAPIŞTIRToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 
@@ -96,7 +166,14 @@ namespace U5_Uyg8
 
         private System.Windows.Forms.MenuStrip anaMenu;
         private System.Windows.Forms.ToolStripMenuItem menu;
+        private System.Windows.Forms.ToolStripMenuItem yENİToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aÇToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kAYDETToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yAZDIRToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem kESToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kOPYALAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem yAPIŞTIRToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.RichTextBox richTextBox1;
     }
