@@ -65,10 +65,33 @@ namespace U5_Uyg9
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            DialogResult cevap = MessageBox.Show("çıkmak istediğinize emin misiniz?","Başlık", MessageBoxButtons.YesNo,MessageBoxIcon.None);
+            DialogResult cevap = MessageBox.Show("çıkmak istediğinize emin misiniz?", "Başlık", MessageBoxButtons.YesNo, MessageBoxIcon.None);
             if (cevap == DialogResult.Yes)
             {
-                MessageBox.Show("çıkış yapıldı");
+                Application.Exit();
+            }
+        }
+
+        private void menu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kAYDETToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void yAZDIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Filter = "Text Dosyası | *.txt | tüm dosyalar| *.*";
+            DialogResult cevap = sfd.ShowDialog();
+            if (cevap == DialogResult.OK)
+            {
+                richTextBox1.SaveFile(sfd.FileName, RichTextBoxStreamType.PlainText);
             }
         }
     }
