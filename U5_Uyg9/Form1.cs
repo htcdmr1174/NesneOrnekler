@@ -19,7 +19,7 @@ namespace U5_Uyg9
 
         private void yENİToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void kESToolStripMenuItem_Click(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace U5_Uyg9
 
         private void aÇToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -61,6 +61,15 @@ namespace U5_Uyg9
         private void yAPIŞTIRToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             richTextBox1.Paste();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            DialogResult cevap = MessageBox.Show("çıkmak istediğinize emin misiniz?","Başlık", MessageBoxButtons.YesNo,MessageBoxIcon.None);
+            if (cevap == DialogResult.Yes)
+            {
+                MessageBox.Show("çıkış yapıldı");
+            }
         }
     }
 }

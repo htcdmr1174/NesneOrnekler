@@ -143,6 +143,7 @@ namespace U5_Uyg9
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(42, 20);
             this.toolStripMenuItem3.Text = "çıkış";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // richTextBox1
             // 
@@ -162,7 +163,7 @@ namespace U5_Uyg9
             this.kOPYALAToolStripMenuItem1,
             this.yAPIŞTIRToolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(128, 70);
             // 
             // kESToolStripMenuItem1
             // 
