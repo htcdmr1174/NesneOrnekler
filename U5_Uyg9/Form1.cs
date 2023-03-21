@@ -34,14 +34,20 @@ namespace U5_Uyg9
         }
 
         private void yAPIŞTIRToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        { 
             richTextBox1.Paste();
         }
 
         private void aÇToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+        OpenFileDialog ofd = new OpenFileDialog();
+        ofd.Filter= "Text Dosyası | *.txt | tüm dosyalar| *.*";
+        DialogResult cevap = ofd.ShowDialog();
+        if (cevap==DialogResult.OK)
+        {
+            MessageBox.Show(ofd.FileName);
         }
+    }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
@@ -92,6 +98,27 @@ namespace U5_Uyg9
             if (cevap == DialogResult.OK)
             {
                 richTextBox1.SaveFile(sfd.FileName, RichTextBoxStreamType.PlainText);
+            }
+        }
+
+        private void yazıTipiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FontDialog fd = new FontDialog();
+            DialogResult cevap = fd.ShowDialog();
+            if (cevap == DialogResult.OK) ;
+            {
+                richTextBox1.Font = fd.Font;
+            }
+        }
+
+        private void yazıRengiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog cd = new ColorDialog();
+            DialogResult cevap = cd.ShowDialog();
+            if (cevap== DialogResult.OK)
+
+            {
+                richTextBox1.ForeColor = cd.Color;
             }
         }
     }
