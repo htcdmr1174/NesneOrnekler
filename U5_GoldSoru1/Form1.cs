@@ -136,5 +136,5 @@ namespace U5_GoldSoru1
             int basariorani = (100 * gecensayisi) / ortalamalar.Length;
             label1.Text = "basari oranı = %" + basariorani.ToString();
         }
-    }
+    } 
 }
