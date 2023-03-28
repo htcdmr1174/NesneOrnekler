@@ -22,5 +22,15 @@ namespace U5_Uyg10
             
 
             }
+
+        private void yENİToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
-}    }
+
+        private void yAZDIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}    
