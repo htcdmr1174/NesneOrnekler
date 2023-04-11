@@ -38,7 +38,7 @@ namespace U5_Uyg17
                 if (textBox2.Text == "")
  {
                     e.Cancel = true;
-                    ep.SetError(textBox2, "adı ve soyadı giriniz");
+                    ep.SetError(textBox2, "adı ve soyadı girin");
                 }
                  else
                 {
@@ -55,7 +55,7 @@ namespace U5_Uyg17
                 if (dersNotu < 0 || dersNotu > 100)
                 {
                     e.Cancel = true;
-                    ep.SetError(textBox3, "0 - 100 arasında değer giriniz");
+                    ep.SetError(textBox3, "0 - 100 arasında değer girin");
                 }
                 else
                 {
@@ -65,7 +65,7 @@ namespace U5_Uyg17
             else
             {
                 e.Cancel = true;
-                ep.SetError(textBox3,"sayısal değer giriniz");
+                ep.SetError(textBox3,"sayısal değer girin");
             }
         }
    
