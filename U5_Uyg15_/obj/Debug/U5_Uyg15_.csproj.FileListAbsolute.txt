@@ -1,0 +1,10 @@
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\bin\Debug\U5_Uyg15_.exe.config
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\bin\Debug\U5_Uyg15_.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\bin\Debug\U5_Uyg15_.pdb
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\obj\Debug\U5_Uyg15_.csproj.AssemblyReference.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\obj\Debug\U5_Uyg15_.Form1.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\obj\Debug\U5_Uyg15_.Properties.Resources.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\obj\Debug\U5_Uyg15_.csproj.GenerateResource.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\obj\Debug\U5_Uyg15_.csproj.CoreCompileInputs.cache
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\obj\Debug\U5_Uyg15_.exe
+C:\Users\Ogrenci\Desktop\NesneOrnekler\U5_Uyg15_\obj\Debug\U5_Uyg15_.pdb
