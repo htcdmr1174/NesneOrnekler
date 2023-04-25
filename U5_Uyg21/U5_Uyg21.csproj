@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8B06BC7-D55F-4EBF-9E9D-616E929325BE}</ProjectGuid>
+    <ProjectGuid>{CCFE3835-2A0C-455D-96B4-3239AE97EF7E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>U5_Uyg20</RootNamespace>
-    <AssemblyName>U5_Uyg20</AssemblyName>
+    <RootNamespace>U5_Uyg21</RootNamespace>
+    <AssemblyName>U5_Uyg21</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,11 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ogrenciler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

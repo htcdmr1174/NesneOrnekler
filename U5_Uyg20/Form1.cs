@@ -10,12 +10,6 @@ using System.Windows.Forms;
 
 namespace U5_Uyg20
 {
-    class Ogrenciler
-    {
-        public int Numara { get; set; }
-        public string AdSoyad { get; set; }
-        public string Alan { get; set; }
-    }
     public partial class Form1 : Form
     {
         public Form1()
@@ -30,9 +24,9 @@ namespace U5_Uyg20
                 ogrenci.Numara = 1111;
                 ogrenci.AdSoyad = "Mehmet";
                 ogrenci.Alan = "Bilişim Teknolojileri";
-                textBox1.DataBindings.Add("Text", ogrenci, "Numara");
-                textBox2.DataBindings.Add("Text", ogrenci, "AdSoyad");
-                textBox4.DataBindings.Add("Text", ogrenci, "Alan");
+                textBox1.DataBindings.Add("Text", ogrenci, "numara");
+                textBox2.DataBindings.Add("Text", ogrenci, "adSoyad");
+                textBox4.DataBindings.Add("Text", ogrenci, "alan");
             }
         }
     }
