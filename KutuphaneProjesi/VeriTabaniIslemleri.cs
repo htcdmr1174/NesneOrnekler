@@ -11,7 +11,7 @@ namespace KutuphaneProjesi
 {
     class VeriTabaniIslemleri
     {
-        readonly string baglantiCumlesi = ConfigurationManager.ConnectionStrings["kutuphaneBaglantiCumlesi"].ConnectionString;
+        string baglantiCumlesi = ConfigurationManager.ConnectionStrings["kutuphaneBaglantiCumlesi"].ConnectionString;
 
 
         public MySqlConnection baglan ()

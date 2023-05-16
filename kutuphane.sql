@@ -74,15 +74,18 @@ CREATE TABLE IF NOT EXISTS `ogrenciler` (
   `ogrenci_no` int NOT NULL,
   `ad` varchar(20) DEFAULT NULL,
   `soyad` varchar(20) DEFAULT NULL,
-  `sınıf` tinyint DEFAULT NULL,
+  `sinif` tinyint DEFAULT NULL,
   `cinsiyet` varchar(7) DEFAULT NULL,
   `telefon` varchar(12) DEFAULT NULL,
   PRIMARY KEY (`ogrenci_no`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- kutuphane.ogrenciler: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
+-- kutuphane.ogrenciler: ~2 rows (yaklaşık) tablosu için veriler indiriliyor
 DELETE FROM `ogrenciler`;
 /*!40000 ALTER TABLE `ogrenciler` DISABLE KEYS */;
+INSERT INTO `ogrenciler` (`ogrenci_no`, `ad`, `soyad`, `sinif`, `cinsiyet`, `telefon`) VALUES
+	(4548, 'hatice', 'demir', 9, 'Kız', '888787787'),
+	(123123, 'qweq', 'asd', 10, 'Kız', '3423423');
 /*!40000 ALTER TABLE `ogrenciler` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

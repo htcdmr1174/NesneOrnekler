@@ -63,7 +63,7 @@ namespace KutuphaneProjesi
             try
             {
                 baglanti = vtIslemleri.baglan();
-                komutSatiri = "Select * Form ogrencileri";
+                komutSatiri = "Select * from ogrenciler";
                 MySqlDataAdapter dataAdapter = new MySqlDataAdapter(komutSatiri, baglanti);
                 DataTable dataTable = new DataTable();
                 dataAdapter.Fill(dataTable);
@@ -71,7 +71,7 @@ namespace KutuphaneProjesi
                 gridOgrenci.Columns["ogrenci_no"].HeaderText = "Öğrenci Numarası";
                 gridOgrenci.Columns["ad"].HeaderText = "ad";
                 gridOgrenci.Columns["soyad"].HeaderText = "soyad";
-                gridOgrenci.Columns["sınıf"].HeaderText = "Sınıf";
+                gridOgrenci.Columns["sinif"].HeaderText = "Sınıf";
                 gridOgrenci.Columns["cinsiyet"].HeaderText = "cinsiyet";
                 gridOgrenci.Columns["telefon"].HeaderText = "telefon Numarası";
 
@@ -92,12 +92,12 @@ namespace KutuphaneProjesi
                 {
                     baglanti.Open();
                 }
-                komutSatiri = "INSERT INTO ogrenciler (ogrenci_no, ad,soyad,sınıf,cinsiyet,telefon) VALUES (@no,@ad,@soyad,@sınıf,@cinsiyet,@telefon)";
+                komutSatiri = "INSERT INTO ogrenciler (ogrenci_no, ad,soyad,sinif,cinsiyet,telefon) VALUES (@no,@ad,@soyad,@sinif,@cinsiyet,@telefon)";
                 komut = new MySqlCommand(komutSatiri, baglanti);
                 komut.Parameters.AddWithValue("@no", int.Parse(txtNo.Text));
                 komut.Parameters.AddWithValue("@ad", txtAd.Text);
                 komut.Parameters.AddWithValue("@soyad", txtSoyad.Text);
-                komut.Parameters.AddWithValue("@sınıf", int.Parse(comboSinif.SelectedItem.ToString()));
+                komut.Parameters.AddWithValue("@sinif", int.Parse(comboSinif.SelectedItem.ToString()));
                 komut.Parameters.AddWithValue("@cinsiyet", comboCinsiyet.SelectedItem.ToString());
                 komut.Parameters.AddWithValue("@telefon", txtTelefon.Text);
 
@@ -106,7 +106,7 @@ namespace KutuphaneProjesi
                 baglanti.Close();
                 Temizle();
                 MessageBox.Show("İşlem Başarılı ", "mesaj", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                Listele();
             }
             catch (Exception ex)
             {
@@ -150,11 +150,11 @@ namespace KutuphaneProjesi
                 {
                     baglanti.Open();
                 }
-                komutSatiri = "UPDATE ogrenciler SET ad=@ad,soyad=@soyad,sinif=@Sinif,cinsiyet=@cinsiyet,telefo=@telefon where ogrenci_no=@no";
+                komutSatiri = "UPDATE ogrenciler SET ad=@ad,soyad=@soyad,sinif=@sinif,cinsiyet=@cinsiyet,telefo=@telefon where ogrenci_no=@no";
                 komut.Parameters.AddWithValue("@no", int.Parse(txtNo.Text));
                 komut.Parameters.AddWithValue("@ad", txtAd.Text);
                 komut.Parameters.AddWithValue("@soyad", txtSoyad.Text);
-                komut.Parameters.AddWithValue("@sınıf", int.Parse(comboSinif.SelectedItem.ToString()));
+                komut.Parameters.AddWithValue("@sinif", int.Parse(comboSinif.SelectedItem.ToString()));
                 komut.Parameters.AddWithValue("@cinsiyet", comboCinsiyet.SelectedItem.ToString());
                 komut.Parameters.AddWithValue("@telefon", txtTelefon.Text);
 
@@ -187,8 +187,8 @@ namespace KutuphaneProjesi
                 }
                 komut = new MySqlCommand();
                 komut.Connection = baglanti;
-                komut.CommandText = "Select * From ogrenciler Where ad LİKE '" + aranacakkelime + "%'";
-                MySqlDataAdapter dataAdapter = new MySqlAdapter(komut);
+                komut.CommandText = "Select * From ogrenciler Where ad LIKE '" + aranacakkelime + "%'";
+                MySqlDataAdapter dataAdapter = new MySqlDataAdapter(komut);
                 DataTable dataTable = new DataTable();
                 dataAdapter.Fill(dataTable);
                 baglanti.Close();

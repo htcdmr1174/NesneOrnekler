@@ -152,6 +152,9 @@ namespace KutuphaneProjesi
             // comboCinsiyet
             // 
             this.comboCinsiyet.FormattingEnabled = true;
+            this.comboCinsiyet.Items.AddRange(new object[] {
+            "Kız",
+            "Erkek"});
             this.comboCinsiyet.Location = new System.Drawing.Point(311, 94);
             this.comboCinsiyet.Name = "comboCinsiyet";
             this.comboCinsiyet.Size = new System.Drawing.Size(121, 21);
@@ -160,6 +163,11 @@ namespace KutuphaneProjesi
             // comboSinif
             // 
             this.comboSinif.FormattingEnabled = true;
+            this.comboSinif.Items.AddRange(new object[] {
+            "9",
+            "10",
+            "11",
+            "12"});
             this.comboSinif.Location = new System.Drawing.Point(74, 94);
             this.comboSinif.Name = "comboSinif";
             this.comboSinif.Size = new System.Drawing.Size(121, 21);
