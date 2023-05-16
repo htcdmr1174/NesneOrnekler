@@ -26,7 +26,9 @@ CREATE TABLE IF NOT EXISTS `kitaplar` (
   `yazar` varchar(40) DEFAULT NULL,
   `yayinevi` varchar(40) DEFAULT NULL,
   `sayfa_sayisi` smallint NOT NULL,
-  PRIMARY KEY (`kitap_id`)
+  PRIMARY KEY (`kitap_id`),
+  KEY `FK_kitaplar_kitap_turleri` (`tur_id`),
+  CONSTRAINT `FK_kitaplar_kitap_turleri` FOREIGN KEY (`tur_id`) REFERENCES `kitap_turleri` (`tur_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- kutuphane.kitaplar: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
@@ -55,7 +57,10 @@ CREATE TABLE IF NOT EXISTS `odunc_kitaplar` (
   `verilis_tarihi` date DEFAULT NULL,
   `teslim_tarihi` date DEFAULT NULL,
   `aciklama` varchar(200) DEFAULT NULL,
-  PRIMARY KEY (`ogr_no`)
+  PRIMARY KEY (`ogr_no`),
+  KEY `FK_odunc_kitaplar_kitaplar` (`kitap_id`),
+  CONSTRAINT `FK_odunc_kitaplar_kitaplar` FOREIGN KEY (`kitap_id`) REFERENCES `kitaplar` (`kitap_id`),
+  CONSTRAINT `FK_odunc_kitaplar_ogrenciler` FOREIGN KEY (`ogr_no`) REFERENCES `ogrenciler` (`ogrenci_no`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- kutuphane.odunc_kitaplar: ~0 rows (yaklaşık) tablosu için veriler indiriliyor
