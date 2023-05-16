@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 
 namespace KutuphaneProjesi
 {
-    class Class1
+    class VeriTabaniIslemleri
     {
         readonly string baglantiCumlesi = ConfigurationManager.ConnectionStrings["kutuphaneBaglantiCumlesi"].ConnectionString;
 
