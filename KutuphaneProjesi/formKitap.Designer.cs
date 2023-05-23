@@ -35,8 +35,10 @@ namespace KutuphaneProjesi
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.txtKitapAra = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtSayfaSayisi = new System.Windows.Forms.TextBox();
             this.txtYayinevi = new System.Windows.Forms.TextBox();
             this.txtYazar = new System.Windows.Forms.TextBox();
             this.txtKitapAdi = new System.Windows.Forms.TextBox();
@@ -46,8 +48,6 @@ namespace KutuphaneProjesi
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtSayfaSayisi = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridKitap)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -64,6 +64,7 @@ namespace KutuphaneProjesi
             this.gridKitap.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gridKitap.Size = new System.Drawing.Size(789, 169);
             this.gridKitap.TabIndex = 8;
+            this.gridKitap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridKitap_CellClick);
             // 
             // groupBox3
             // 
@@ -88,6 +89,7 @@ namespace KutuphaneProjesi
             this.button1.Text = "SİL";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -100,6 +102,7 @@ namespace KutuphaneProjesi
             this.button2.Text = "KAYDET";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -112,6 +115,7 @@ namespace KutuphaneProjesi
             this.button3.Text = "GÜNCELLE";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox2
             // 
@@ -124,12 +128,22 @@ namespace KutuphaneProjesi
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Arama";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(28, 36);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(48, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "kitap Adı";
+            // 
             // txtKitapAra
             // 
             this.txtKitapAra.Location = new System.Drawing.Point(101, 33);
             this.txtKitapAra.Name = "txtKitapAra";
             this.txtKitapAra.Size = new System.Drawing.Size(100, 20);
             this.txtKitapAra.TabIndex = 15;
+            this.txtKitapAra.TextChanged += new System.EventHandler(this.txtKitapAra_TextChanged);
             // 
             // groupBox1
             // 
@@ -149,7 +163,13 @@ namespace KutuphaneProjesi
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bilgi Giriş";
-            
+            // 
+            // txtSayfaSayisi
+            // 
+            this.txtSayfaSayisi.Location = new System.Drawing.Point(315, 89);
+            this.txtSayfaSayisi.Name = "txtSayfaSayisi";
+            this.txtSayfaSayisi.Size = new System.Drawing.Size(100, 20);
+            this.txtSayfaSayisi.TabIndex = 15;
             // 
             // txtYayinevi
             // 
@@ -224,27 +244,11 @@ namespace KutuphaneProjesi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 38);
+            this.label1.Location = new System.Drawing.Point(7, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Kitap Adı:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(28, 36);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "kitap Adı";
-            // 
-            // txtSayfaSayisi
-            // 
-            this.txtSayfaSayisi.Location = new System.Drawing.Point(315, 89);
-            this.txtSayfaSayisi.Name = "txtSayfaSayisi";
-            this.txtSayfaSayisi.Size = new System.Drawing.Size(100, 20);
-            this.txtSayfaSayisi.TabIndex = 15;
             // 
             // formKitap
             // 
