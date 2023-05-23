@@ -34,9 +34,9 @@ namespace KutuphaneProjesi
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtTurAdi = new System.Windows.Forms.TextBox();
             this.gridKitapTur = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridKitapTur)).BeginInit();
@@ -65,6 +65,7 @@ namespace KutuphaneProjesi
             this.button1.Text = "SİL";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -77,6 +78,7 @@ namespace KutuphaneProjesi
             this.button2.Text = "KAYDET";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -89,6 +91,7 @@ namespace KutuphaneProjesi
             this.button3.Text = "GÜNCELLE";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox2
             // 
@@ -100,6 +103,15 @@ namespace KutuphaneProjesi
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Arama";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(58, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Tür Adı:";
             // 
             // txtTurAdi
             // 
@@ -117,15 +129,7 @@ namespace KutuphaneProjesi
             this.gridKitapTur.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gridKitapTur.Size = new System.Drawing.Size(651, 191);
             this.gridKitapTur.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(58, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "Tür Adı:";
+            this.gridKitapTur.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridKitapTur_CellClick);
             // 
             // formKitapTur
             // 
@@ -139,6 +143,7 @@ namespace KutuphaneProjesi
             this.Name = "formKitapTur";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formKitapTur";
+            this.Load += new System.EventHandler(this.formKitapTur_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
