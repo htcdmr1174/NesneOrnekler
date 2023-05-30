@@ -102,7 +102,7 @@ namespace KutuphaneProjesi
                     "VALUES (@ogr_no,@kitap_id,@verilis_terihi,@acıklama)";
                 komut.Parameters.AddWithValue("ogr_no", int.Parse(txtogrencino.Text));
                 komut.Parameters.AddWithValue("kitap_id", int.Parse(comboKitap.Text));
-                komut.Parameters.AddWithValue("verilis_tarihi", DateTime.Now.ToString("yyyy/MM/dd");
+                komut.Parameters.AddWithValue("verilis_tarihi", DateTime.Now.ToString("yyyy/MM/dd"));
                 komut.Parameters.AddWithValue("aciklama", txtaciklama.Text);
                 komut.ExecuteNonQuery();
                 baglanti.Close();
@@ -145,7 +145,7 @@ namespace KutuphaneProjesi
 
                 komut = new MySqlCommand();
                 komut.Connection = baglanti;
-                komut.CommandText "DELETE FROM odunc_kitaplar WHERE id =@id";
+                komut.CommandText = "DELETE FROM odunc_kitaplar WHERE id =@id";
                 komut.Parameters.AddWithValue("@id", gridKitap.CurrentRow.Cells["id"].Value.ToString());
                 komut.ExecuteNonQuery();
                 baglanti.Close();

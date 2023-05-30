@@ -25,3 +25,4 @@ C:\Users\Ogrenci\Desktop\NesneOrnekler\KutuphaneProjesi\obj\Debug\KutuphaneProje
 C:\Users\Ogrenci\Desktop\NesneOrnekler\KutuphaneProjesi\obj\Debug\KutuphaneProjesi.pdb
 C:\Users\Ogrenci\Desktop\NesneOrnekler\KutuphaneProjesi\obj\Debug\KutuphaneProjesi.formKitapTur.resources
 C:\Users\Ogrenci\Desktop\NesneOrnekler\KutuphaneProjesi\obj\Debug\KutuphaneProjesi.formKitap.resources
+C:\Users\Ogrenci\Desktop\NesneOrnekler\KutuphaneProjesi\obj\Debug\KutuphaneProjesi.formOdunckitap.resources
