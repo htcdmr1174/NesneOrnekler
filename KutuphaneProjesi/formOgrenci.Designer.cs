@@ -273,6 +273,7 @@ namespace KutuphaneProjesi
             this.gridOgrenci.Size = new System.Drawing.Size(789, 169);
             this.gridOgrenci.TabIndex = 4;
             this.gridOgrenci.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridOgrenci_CellClick);
+            this.gridOgrenci.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridOgrenci_CellContentClick);
             // 
             // formOgrenci
             // 

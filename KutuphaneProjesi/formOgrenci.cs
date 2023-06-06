@@ -203,5 +203,10 @@ namespace KutuphaneProjesi
 
             }
         }
+
+        private void gridOgrenci_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
