@@ -102,7 +102,7 @@ namespace KutuphaneProjesi
                 komut.Connection = baglanti;
                 komut.CommandText = "INSERT INTO kitaplar (tur_id,kitap_adi,yazar,yayinevi,sayfa_sayisi)" +
                 "VALUES (@tur_id,@kitap_adi,@yazar,@yayinevi,@sayfa_sayisi)";
-                komut.Parameters.AddWithValue("@tur-id", int.Parse(comboKitapTur.SelectedValue.ToString()));
+                komut.Parameters.AddWithValue("@tur_id", int.Parse(comboKitapTur.SelectedValue.ToString()));
                 komut.Parameters.AddWithValue("@kitap_adi", txtKitapAdi.Text);
                 komut.Parameters.AddWithValue("@yazar", txtYazar.Text);
                 komut.Parameters.AddWithValue("@yayinevi", txtYayinevi.Text);

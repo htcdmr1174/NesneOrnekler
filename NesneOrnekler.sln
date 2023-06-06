@@ -237,6 +237,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unite6_VeriTabani", "Unite6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KutuphaneProjesi", "KutuphaneProjesi\KutuphaneProjesi.csproj", "{90338B55-6E36-436D-A90F-B61191071323}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sinav", "Sinav", "{F4CCB09F-6435-45C2-BE08-8A6DBD31AEE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sinav", "Sinav\Sinav.csproj", "{F630D21D-601B-4573-8AF8-D84F951FCD50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -687,6 +691,10 @@ Global
 		{90338B55-6E36-436D-A90F-B61191071323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90338B55-6E36-436D-A90F-B61191071323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90338B55-6E36-436D-A90F-B61191071323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F630D21D-601B-4573-8AF8-D84F951FCD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F630D21D-601B-4573-8AF8-D84F951FCD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F630D21D-601B-4573-8AF8-D84F951FCD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F630D21D-601B-4573-8AF8-D84F951FCD50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -803,6 +811,7 @@ Global
 		{50BE0034-B0C8-4C9D-9E12-64C64409EFA2} = {E3977D32-63BA-4E46-8B1E-EC8D8D39F7FE}
 		{59F993A1-51C3-4CEC-AC3A-C9094F4BF8C9} = {E3977D32-63BA-4E46-8B1E-EC8D8D39F7FE}
 		{90338B55-6E36-436D-A90F-B61191071323} = {8746B9D1-33AA-433B-9C3B-B068BE4028C4}
+		{F630D21D-601B-4573-8AF8-D84F951FCD50} = {F4CCB09F-6435-45C2-BE08-8A6DBD31AEE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EDBA141-81CB-48A6-9F95-8B5DED1FC991}
