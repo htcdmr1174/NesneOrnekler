@@ -111,6 +111,7 @@ namespace KutuphaneProjesi
             this.btnKitapAl.Text = "KİTAP AL";
             this.btnKitapAl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnKitapAl.UseVisualStyleBackColor = true;
+            this.btnKitapAl.Click += new System.EventHandler(this.btnKitapAl_Click);
             // 
             // groupBox2
             // 

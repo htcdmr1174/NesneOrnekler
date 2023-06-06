@@ -34,6 +34,7 @@ namespace KutuphaneProjesi
             this.button1 = new System.Windows.Forms.Button();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtTelefon = new System.Windows.Forms.TextBox();
             this.txtSoyad = new System.Windows.Forms.TextBox();
             this.txtAd = new System.Windows.Forms.TextBox();
             this.txtNo = new System.Windows.Forms.TextBox();
@@ -51,7 +52,6 @@ namespace KutuphaneProjesi
             this.txtOgrenciAra = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.gridOgrenci = new System.Windows.Forms.DataGridView();
-            this.txtTelefon = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -100,6 +100,13 @@ namespace KutuphaneProjesi
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
+            // 
+            // txtTelefon
+            // 
+            this.txtTelefon.Location = new System.Drawing.Point(551, 93);
+            this.txtTelefon.Name = "txtTelefon";
+            this.txtTelefon.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefon.TabIndex = 15;
             // 
             // txtSoyad
             // 
@@ -205,7 +212,7 @@ namespace KutuphaneProjesi
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImageIndex = 0;
             this.button2.ImageList = this.ımageList1;
-            this.button2.Location = new System.Drawing.Point(17, 24);
+            this.button2.Location = new System.Drawing.Point(17, 19);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 82);
             this.button2.TabIndex = 1;
@@ -266,13 +273,6 @@ namespace KutuphaneProjesi
             this.gridOgrenci.Size = new System.Drawing.Size(789, 169);
             this.gridOgrenci.TabIndex = 4;
             this.gridOgrenci.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridOgrenci_CellClick);
-            // 
-            // txtTelefon
-            // 
-            this.txtTelefon.Location = new System.Drawing.Point(551, 93);
-            this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(100, 20);
-            this.txtTelefon.TabIndex = 15;
             // 
             // formOgrenci
             // 

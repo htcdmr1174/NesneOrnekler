@@ -159,5 +159,37 @@ namespace KutuphaneProjesi
 
             }
         }
+
+        private void btnKitapAl_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (gridKitap.CurrentRow.Cells["teslim_tarihi"].Value.ToString()!=String.Empty)
+                {
+                    MessageBox.Show("bu kitap teslim alınmıştır", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (baglanti.State != ConnectionState.Open) baglanti.Open();
+
+                komut = new MySqlCommand();
+                komut.Connection = baglanti;
+                komut.CommandText = "DELETE FROM odunc_kitaplar WHERE id =@id";
+                komut.Parameters.AddWithValue("@id", int.Parse(gridKitap.CurrentRow.Cells["id"].Value.ToString()));
+                komut.Parameters.AddWithValue("@teslim_tarihi", DateTime.Now.ToString("yyyy/MM/dd"));
+                komut.Parameters.AddWithValue("@aciklama", txtaciklama.Text);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                Temizle();
+                MessageBox.Show("İşlem Başarılı ", "mesaj", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KitapListele();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, "Hata oluştu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }    }
     
